@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    padding: 30px;
+}
+
+/* Page Title */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+/* Main Cart Container */
+#cartContent {
+    /* max-width: 900px;
+    margin: auto; */
+     max-width: 900px;
+    margin: auto;
+    padding:  20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Individual Cart Item */
+main {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease;
+    justify-content: space-between;
+}
+
+main {
+    transform: scale(1.01);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* Product Image */
+main img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Product Details */
+main details {
+    flex: 1;
+    
+}
+
+main h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+main p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Remove Button */
+#details button {
+    margin-top: 10px;
+    background: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#details button:hover {
+    background: #d9363e;
+}
+
+/* Summary Section */
+.cart-summary {
+    max-width: 900px;
+    margin: 30px auto 0;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Total Price */
+.cart-summary h2 {
+    color: #222;
+}
+
+/* Checkout Button */
+.cart-summary button {
+    background: #1677ff;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.cart-summary button:hover {
+    background: #0958d9;
+}
+
+/* Empty Cart Message */
+#cartContainer h2 {
+    text-align: center;
+    color: #888;
+}
+
+

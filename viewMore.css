@@ -1,0 +1,89 @@
+#container{
+    height: 700px;
+    width: 700px;
+   background-color: #f5f5dc;
+   padding: 10px;
+   margin-left: 250px;
+
+}
+img{
+    height: 300px;
+    width: 300px;
+    background-color:white;
+    border-radius: 25px;
+}
+
+#button{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+h3,h4{
+    margin-left: 350px; 
+}
+
+h2{
+  margin-left: 350px;
+}
+
+#price {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+#cost {
+  color: #d32f2f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#Rating{
+    margin-left: 350px;
+    font-weight: bold;
+}
+
+#details{ 
+    margin-top: -300px;
+    /* margin-left: 300px; */
+    /* height: 300px;
+    width: 300px; */
+}
+
+#addToCart{
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#addToCart:hover {
+  background-color: #0056b3;
+}
+
+#backToHome{
+  padding: 8px 12px;
+  border: none;
+  background-color: #30dc09;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#backToHome:hover {
+  background-color: #3cb300;
+}
+
+#review{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+#reviewerName{
+  margin-top: 10px;
+    margin-left: 0px;
+}
